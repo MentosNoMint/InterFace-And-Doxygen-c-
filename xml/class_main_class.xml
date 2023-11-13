@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="ru">
+  <compounddef id="class_main_class" kind="class" language="C#" prot="public">
+    <compoundname>MainClass</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_main_class_1a2a8a540ad23ec79b3f9ed87013ab1a7e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MainClass.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <qualifiedname>MainClass.Main</qualifiedname>
+        <briefdescription>
+<para>То где происходят все события : Создание экземпляров , вывод на консоль все характерикстики героев </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="130" column="24" bodyfile="Program.cs" bodystart="130" bodyend="192"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_main_class_1aba9723b0cbf0c51597267ce6c6caa9dc" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string MainClass.GetHeart</definition>
+        <argsstring>(int life)</argsstring>
+        <name>GetHeart</name>
+        <qualifiedname>MainClass.GetHeart</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>life</declname>
+        </param>
+        <briefdescription>
+<para>Функция Цикл , который преобразует жизни героев из int в string ввиде сердечек </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>life</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Здоровье</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Количество сердец</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="199" column="19" bodyfile="Program.cs" bodystart="199" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_class_1a9fe365793543ef070350f2137ec5bf68" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MainClass.ConsoleLife</definition>
+        <argsstring>(Hero hero1, Hero hero2)</argsstring>
+        <name>ConsoleLife</name>
+        <qualifiedname>MainClass.ConsoleLife</qualifiedname>
+        <param>
+          <type><ref refid="class_hero" kindref="compound">Hero</ref></type>
+          <declname>hero1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_hero" kindref="compound">Hero</ref></type>
+          <declname>hero2</declname>
+        </param>
+        <briefdescription>
+<para>Фукнция, которая выводит жизни , путем использования фунции GetHeart(hero.life) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hero1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Герой1</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hero2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Герой2</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="213" column="17" bodyfile="Program.cs" bodystart="213" bodyend="218"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Класс в котором реализуется main. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Program.cs" line="124" column="7" bodyfile="Program.cs" bodystart="125" bodyend="219"/>
+    <listofallmembers>
+      <member refid="class_main_class_1a9fe365793543ef070350f2137ec5bf68" prot="private" virt="non-virtual"><scope>MainClass</scope><name>ConsoleLife</name></member>
+      <member refid="class_main_class_1aba9723b0cbf0c51597267ce6c6caa9dc" prot="private" virt="non-virtual"><scope>MainClass</scope><name>GetHeart</name></member>
+      <member refid="class_main_class_1a2a8a540ad23ec79b3f9ed87013ab1a7e" prot="public" virt="non-virtual"><scope>MainClass</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,149 @@
+\doxysection{Класс Hero}
+\hypertarget{class_hero}{}\label{class_hero}\index{Hero@{Hero}}
+
+
+класс \doxylink{class_hero}{Hero} реализующий два интерфейса \+: \doxylink{interface_hero_defence}{Hero\+Defence}, \doxylink{interface_take_damage}{Take\+Damage}  
+
+
+Граф наследования\+:Hero\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_hero}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_hero_a006c131158030e91484f1bac6e2e53a2}{Hero}} (int \mbox{\hyperlink{class_hero_a0870a95fcce9ceb1ea55de7e2988fc2a}{life}}, int \mbox{\hyperlink{class_hero_abfd439e9ba990df07f793bca0b043e22}{armour}}, int \mbox{\hyperlink{class_hero_aa3ea020289ec07644a10649c4b0271d5}{lvl}}, string \mbox{\hyperlink{class_hero_a43cdee3f54f60c0d45492f9023443b8e}{name}}, int \mbox{\hyperlink{class_hero_ab967ae2d4e12d738a625ad9eeedb05ea}{Damage}})
+\begin{DoxyCompactList}\small\item\em Коструктор героя \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_hero_a50c0601a051d4d2b284a4ba0bb3fbb11}{Armour}} (int \mbox{\hyperlink{class_hero_a0870a95fcce9ceb1ea55de7e2988fc2a}{life}}, int \mbox{\hyperlink{class_hero_aa3ea020289ec07644a10649c4b0271d5}{lvl}})
+\begin{DoxyCompactList}\small\item\em Метод брони , взят из \doxylink{interface_hero_defence}{Hero\+Defence}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_hero_a0f2454ab2f11e10cbe469f74ed4c742f}{Reduction}} (int \mbox{\hyperlink{class_hero_abfd439e9ba990df07f793bca0b043e22}{armour}}, int \mbox{\hyperlink{class_hero_a0870a95fcce9ceb1ea55de7e2988fc2a}{life}})
+\begin{DoxyCompactList}\small\item\em Метод Подавление , взят из \doxylink{interface_hero_defence}{Hero\+Defence}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_hero_aa8b3bbf01d4a3008875f2cd8efa464a3}{damage\+Calc}} (int Total\+Damage)
+\begin{DoxyCompactList}\small\item\em Метод урона , взят из \doxylink{interface_take_damage}{Take\+Damage}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Свойства}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_hero_ab967ae2d4e12d738a625ad9eeedb05ea}\label{class_hero_ab967ae2d4e12d738a625ad9eeedb05ea} 
+int {\bfseries Damage}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Урон \end{DoxyCompactList}\item 
+\Hypertarget{class_hero_a43cdee3f54f60c0d45492f9023443b8e}\label{class_hero_a43cdee3f54f60c0d45492f9023443b8e} 
+string {\bfseries name}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Имя героя \end{DoxyCompactList}\item 
+\Hypertarget{class_hero_a0870a95fcce9ceb1ea55de7e2988fc2a}\label{class_hero_a0870a95fcce9ceb1ea55de7e2988fc2a} 
+int {\bfseries life}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Здоровье \end{DoxyCompactList}\item 
+\Hypertarget{class_hero_abfd439e9ba990df07f793bca0b043e22}\label{class_hero_abfd439e9ba990df07f793bca0b043e22} 
+int {\bfseries armour}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Броня \end{DoxyCompactList}\item 
+\Hypertarget{class_hero_aa3ea020289ec07644a10649c4b0271d5}\label{class_hero_aa3ea020289ec07644a10649c4b0271d5} 
+int {\bfseries lvl}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Уровень \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+класс \doxylink{class_hero}{Hero} реализующий два интерфейса \+: \doxylink{interface_hero_defence}{Hero\+Defence}, \doxylink{interface_take_damage}{Take\+Damage} 
+
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{class_hero_a006c131158030e91484f1bac6e2e53a2}\label{class_hero_a006c131158030e91484f1bac6e2e53a2} 
+\index{Hero@{Hero}!Hero@{Hero}}
+\index{Hero@{Hero}!Hero@{Hero}}
+\doxysubsubsection{\texorpdfstring{Hero()}{Hero()}}
+{\footnotesize\ttfamily Hero.\+Hero (\begin{DoxyParamCaption}\item[{int}]{life,  }\item[{int}]{armour,  }\item[{int}]{lvl,  }\item[{string}]{name,  }\item[{int}]{Damage }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Коструктор героя 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em life} & Здоровье\\
+\hline
+{\em armour} & Броня\\
+\hline
+{\em lvl} & Уровень\\
+\hline
+{\em name} & Имя героя\\
+\hline
+{\em Damage} & Урон\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\Hypertarget{class_hero_a50c0601a051d4d2b284a4ba0bb3fbb11}\label{class_hero_a50c0601a051d4d2b284a4ba0bb3fbb11} 
+\index{Hero@{Hero}!Armour@{Armour}}
+\index{Armour@{Armour}!Hero@{Hero}}
+\doxysubsubsection{\texorpdfstring{Armour()}{Armour()}}
+{\footnotesize\ttfamily int Hero.\+Armour (\begin{DoxyParamCaption}\item[{int}]{life,  }\item[{int}]{lvl }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Метод брони , взят из \doxylink{interface_hero_defence}{Hero\+Defence}. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em life} & Здоровье\\
+\hline
+{\em lvl} & Уровень\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Количество брони
+\end{DoxyReturn}
+
+
+Замещает \mbox{\hyperlink{interface_hero_defence_a89531d2b9720922cc90f52c920997d62}{Hero\+Defence}}.
+
+\Hypertarget{class_hero_aa8b3bbf01d4a3008875f2cd8efa464a3}\label{class_hero_aa8b3bbf01d4a3008875f2cd8efa464a3} 
+\index{Hero@{Hero}!damageCalc@{damageCalc}}
+\index{damageCalc@{damageCalc}!Hero@{Hero}}
+\doxysubsubsection{\texorpdfstring{damageCalc()}{damageCalc()}}
+{\footnotesize\ttfamily int Hero.\+damage\+Calc (\begin{DoxyParamCaption}\item[{int}]{Total\+Damage }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Метод урона , взят из \doxylink{interface_take_damage}{Take\+Damage}. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em Total\+Damage} & Урон\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Отнимает здоровье , смотря сколько урона
+\end{DoxyReturn}
+
+
+Замещает \mbox{\hyperlink{interface_take_damage_a612d49bbe2e9012256e8b91980cde622}{Take\+Damage}}.
+
+\Hypertarget{class_hero_a0f2454ab2f11e10cbe469f74ed4c742f}\label{class_hero_a0f2454ab2f11e10cbe469f74ed4c742f} 
+\index{Hero@{Hero}!Reduction@{Reduction}}
+\index{Reduction@{Reduction}!Hero@{Hero}}
+\doxysubsubsection{\texorpdfstring{Reduction()}{Reduction()}}
+{\footnotesize\ttfamily int Hero.\+Reduction (\begin{DoxyParamCaption}\item[{int}]{armour,  }\item[{int}]{life }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Метод Подавление , взят из \doxylink{interface_hero_defence}{Hero\+Defence}. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em armour} & \\
+\hline
+{\em life} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Подавление
+\end{DoxyReturn}
+
+
+Замещает \mbox{\hyperlink{interface_hero_defence_ac61b0071f605ff43bd0561dd830498f3}{Hero\+Defence}}.
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Program.\+cs\end{DoxyCompactItemize}

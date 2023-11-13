@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.8" xml:lang="ru">
+  <compound refid="class_hero" kind="class"><name>Hero</name>
+    <member refid="class_hero_1ab967ae2d4e12d738a625ad9eeedb05ea" kind="property"><name>Damage</name></member>
+    <member refid="class_hero_1a43cdee3f54f60c0d45492f9023443b8e" kind="property"><name>name</name></member>
+    <member refid="class_hero_1a0870a95fcce9ceb1ea55de7e2988fc2a" kind="property"><name>life</name></member>
+    <member refid="class_hero_1abfd439e9ba990df07f793bca0b043e22" kind="property"><name>armour</name></member>
+    <member refid="class_hero_1aa3ea020289ec07644a10649c4b0271d5" kind="property"><name>lvl</name></member>
+    <member refid="class_hero_1a006c131158030e91484f1bac6e2e53a2" kind="function"><name>Hero</name></member>
+    <member refid="class_hero_1a50c0601a051d4d2b284a4ba0bb3fbb11" kind="function"><name>Armour</name></member>
+    <member refid="class_hero_1a0f2454ab2f11e10cbe469f74ed4c742f" kind="function"><name>Reduction</name></member>
+    <member refid="class_hero_1aa8b3bbf01d4a3008875f2cd8efa464a3" kind="function"><name>damageCalc</name></member>
+  </compound>
+  <compound refid="interface_hero_defence" kind="interface"><name>HeroDefence</name>
+    <member refid="interface_hero_defence_1a89531d2b9720922cc90f52c920997d62" kind="function"><name>Armour</name></member>
+    <member refid="interface_hero_defence_1ac61b0071f605ff43bd0561dd830498f3" kind="function"><name>Reduction</name></member>
+  </compound>
+  <compound refid="class_main_class" kind="class"><name>MainClass</name>
+    <member refid="class_main_class_1a2a8a540ad23ec79b3f9ed87013ab1a7e" kind="function"><name>Main</name></member>
+    <member refid="class_main_class_1aba9723b0cbf0c51597267ce6c6caa9dc" kind="function"><name>GetHeart</name></member>
+    <member refid="class_main_class_1a9fe365793543ef070350f2137ec5bf68" kind="function"><name>ConsoleLife</name></member>
+  </compound>
+  <compound refid="interface_take_damage" kind="interface"><name>TakeDamage</name>
+    <member refid="interface_take_damage_1a612d49bbe2e9012256e8b91980cde622" kind="function"><name>damageCalc</name></member>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_cryptography_1_1_x509_certificates" kind="namespace"><name>System::Security::Cryptography::X509Certificates</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+</doxygenindex>

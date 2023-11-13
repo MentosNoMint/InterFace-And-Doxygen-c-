@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="ru">
+  <compounddef id="class_hero" kind="class" language="C#" prot="public">
+    <compoundname>Hero</compoundname>
+    <basecompoundref refid="interface_hero_defence" prot="public" virt="non-virtual">HeroDefence</basecompoundref>
+    <basecompoundref refid="interface_take_damage" prot="public" virt="non-virtual">TakeDamage</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_hero_1ab967ae2d4e12d738a625ad9eeedb05ea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Hero.Damage</definition>
+        <argsstring></argsstring>
+        <name>Damage</name>
+        <qualifiedname>Hero.Damage</qualifiedname>
+        <briefdescription>
+<para>Урон </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="50" column="16" bodyfile="Program.cs" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hero_1a43cdee3f54f60c0d45492f9023443b8e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Hero.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>Hero.name</qualifiedname>
+        <briefdescription>
+<para>Имя героя </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="54" column="19" bodyfile="Program.cs" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hero_1a0870a95fcce9ceb1ea55de7e2988fc2a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Hero.life</definition>
+        <argsstring></argsstring>
+        <name>life</name>
+        <qualifiedname>Hero.life</qualifiedname>
+        <briefdescription>
+<para>Здоровье </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="58" column="16" bodyfile="Program.cs" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hero_1abfd439e9ba990df07f793bca0b043e22" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Hero.armour</definition>
+        <argsstring></argsstring>
+        <name>armour</name>
+        <qualifiedname>Hero.armour</qualifiedname>
+        <briefdescription>
+<para>Броня </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="62" column="16" bodyfile="Program.cs" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hero_1aa3ea020289ec07644a10649c4b0271d5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Hero.lvl</definition>
+        <argsstring></argsstring>
+        <name>lvl</name>
+        <qualifiedname>Hero.lvl</qualifiedname>
+        <briefdescription>
+<para>Уровень </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="66" column="16" bodyfile="Program.cs" bodystart="66" bodyend="66"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hero_1a006c131158030e91484f1bac6e2e53a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hero.Hero</definition>
+        <argsstring>(int life, int armour, int lvl, string name, int Damage)</argsstring>
+        <name>Hero</name>
+        <qualifiedname>Hero.Hero</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>life</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>armour</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lvl</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Damage</declname>
+        </param>
+        <briefdescription>
+<para>Коструктор героя </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>life</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Здоровье</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>armour</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Броня</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lvl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Уровень</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Имя героя</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Damage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Урон</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="76" column="12" bodyfile="Program.cs" bodystart="76" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hero_1a50c0601a051d4d2b284a4ba0bb3fbb11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Hero.Armour</definition>
+        <argsstring>(int life, int lvl)</argsstring>
+        <name>Armour</name>
+        <qualifiedname>Hero.Armour</qualifiedname>
+        <reimplements refid="interface_hero_defence_1a89531d2b9720922cc90f52c920997d62">Armour</reimplements>
+        <param>
+          <type>int</type>
+          <declname>life</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lvl</declname>
+        </param>
+        <briefdescription>
+<para>Метод брони , взят из <ref refid="interface_hero_defence" kindref="compound">HeroDefence</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>life</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Здоровье</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lvl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Уровень</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Количество брони</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="91" column="16" bodyfile="Program.cs" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hero_1a0f2454ab2f11e10cbe469f74ed4c742f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Hero.Reduction</definition>
+        <argsstring>(int armour, int life)</argsstring>
+        <name>Reduction</name>
+        <qualifiedname>Hero.Reduction</qualifiedname>
+        <reimplements refid="interface_hero_defence_1ac61b0071f605ff43bd0561dd830498f3">Reduction</reimplements>
+        <param>
+          <type>int</type>
+          <declname>armour</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>life</declname>
+        </param>
+        <briefdescription>
+<para>Метод Подавление , взят из <ref refid="interface_hero_defence" kindref="compound">HeroDefence</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>armour</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>life</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Подавление</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="102" column="16" bodyfile="Program.cs" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hero_1aa8b3bbf01d4a3008875f2cd8efa464a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Hero.damageCalc</definition>
+        <argsstring>(int TotalDamage)</argsstring>
+        <name>damageCalc</name>
+        <qualifiedname>Hero.damageCalc</qualifiedname>
+        <reimplements refid="interface_take_damage_1a612d49bbe2e9012256e8b91980cde622">damageCalc</reimplements>
+        <param>
+          <type>int</type>
+          <declname>TotalDamage</declname>
+        </param>
+        <briefdescription>
+<para>Метод урона , взят из <ref refid="interface_take_damage" kindref="compound">TakeDamage</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>TotalDamage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Урон</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Отнимает здоровье , смотря сколько урона</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="112" column="16" bodyfile="Program.cs" bodystart="112" bodyend="115"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>класс <ref refid="class_hero" kindref="compound">Hero</ref> реализующий два интерфейса : <ref refid="interface_hero_defence" kindref="compound">HeroDefence</ref>, <ref refid="interface_take_damage" kindref="compound">TakeDamage</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Hero</label>
+        <link refid="class_hero"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>HeroDefence</label>
+        <link refid="interface_hero_defence"/>
+      </node>
+      <node id="3">
+        <label>TakeDamage</label>
+        <link refid="interface_take_damage"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Hero</label>
+        <link refid="class_hero"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>HeroDefence</label>
+        <link refid="interface_hero_defence"/>
+      </node>
+      <node id="3">
+        <label>TakeDamage</label>
+        <link refid="interface_take_damage"/>
+      </node>
+    </collaborationgraph>
+    <location file="Program.cs" line="45" column="7" bodyfile="Program.cs" bodystart="46" bodyend="118"/>
+    <listofallmembers>
+      <member refid="class_hero_1abfd439e9ba990df07f793bca0b043e22" prot="public" virt="non-virtual"><scope>Hero</scope><name>armour</name></member>
+      <member refid="class_hero_1a50c0601a051d4d2b284a4ba0bb3fbb11" prot="public" virt="non-virtual"><scope>Hero</scope><name>Armour</name></member>
+      <member refid="class_hero_1ab967ae2d4e12d738a625ad9eeedb05ea" prot="public" virt="non-virtual"><scope>Hero</scope><name>Damage</name></member>
+      <member refid="class_hero_1aa8b3bbf01d4a3008875f2cd8efa464a3" prot="public" virt="non-virtual"><scope>Hero</scope><name>damageCalc</name></member>
+      <member refid="class_hero_1a006c131158030e91484f1bac6e2e53a2" prot="public" virt="non-virtual"><scope>Hero</scope><name>Hero</name></member>
+      <member refid="class_hero_1a0870a95fcce9ceb1ea55de7e2988fc2a" prot="public" virt="non-virtual"><scope>Hero</scope><name>life</name></member>
+      <member refid="class_hero_1aa3ea020289ec07644a10649c4b0271d5" prot="public" virt="non-virtual"><scope>Hero</scope><name>lvl</name></member>
+      <member refid="class_hero_1a43cdee3f54f60c0d45492f9023443b8e" prot="public" virt="non-virtual"><scope>Hero</scope><name>name</name></member>
+      <member refid="class_hero_1a0f2454ab2f11e10cbe469f74ed4c742f" prot="public" virt="non-virtual"><scope>Hero</scope><name>Reduction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

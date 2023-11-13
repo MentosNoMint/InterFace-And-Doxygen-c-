@@ -1,0 +1,79 @@
+\doxysection{Интерфейс Hero\+Defence}
+\hypertarget{interface_hero_defence}{}\label{interface_hero_defence}\index{HeroDefence@{HeroDefence}}
+
+
+Интерфейс \doxylink{interface_hero_defence}{Hero\+Defence} Интерфейс реализующий защиту  
+
+
+Граф наследования\+:Hero\+Defence\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_hero_defence}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{interface_hero_defence_a89531d2b9720922cc90f52c920997d62}{Armour}} (int life, int lvl)
+\begin{DoxyCompactList}\small\item\em Метод который получает Armour благодоря здоровью и уровню \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{interface_hero_defence_ac61b0071f605ff43bd0561dd830498f3}{Reduction}} (int armour, int life)
+\begin{DoxyCompactList}\small\item\em Метод считающий подавление урона \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Интерфейс \doxylink{interface_hero_defence}{Hero\+Defence} Интерфейс реализующий защиту 
+
+\doxysubsection{Методы}
+\Hypertarget{interface_hero_defence_a89531d2b9720922cc90f52c920997d62}\label{interface_hero_defence_a89531d2b9720922cc90f52c920997d62} 
+\index{HeroDefence@{HeroDefence}!Armour@{Armour}}
+\index{Armour@{Armour}!HeroDefence@{HeroDefence}}
+\doxysubsubsection{\texorpdfstring{Armour()}{Armour()}}
+{\footnotesize\ttfamily int Hero\+Defence.\+Armour (\begin{DoxyParamCaption}\item[{int}]{life,  }\item[{int}]{lvl }\end{DoxyParamCaption})}
+
+
+
+Метод который получает Armour благодоря здоровью и уровню 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em life} & Здоровье\\
+\hline
+{\em lvl} & Уровень\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Armour
+\end{DoxyReturn}
+
+
+Замещается в \mbox{\hyperlink{class_hero_a50c0601a051d4d2b284a4ba0bb3fbb11}{Hero}}.
+
+\Hypertarget{interface_hero_defence_ac61b0071f605ff43bd0561dd830498f3}\label{interface_hero_defence_ac61b0071f605ff43bd0561dd830498f3} 
+\index{HeroDefence@{HeroDefence}!Reduction@{Reduction}}
+\index{Reduction@{Reduction}!HeroDefence@{HeroDefence}}
+\doxysubsubsection{\texorpdfstring{Reduction()}{Reduction()}}
+{\footnotesize\ttfamily int Hero\+Defence.\+Reduction (\begin{DoxyParamCaption}\item[{int}]{armour,  }\item[{int}]{life }\end{DoxyParamCaption})}
+
+
+
+Метод считающий подавление урона 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em armour} & Броня\\
+\hline
+{\em life} & Здоровье\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Reduction
+\end{DoxyReturn}
+
+
+Замещается в \mbox{\hyperlink{class_hero_a0f2454ab2f11e10cbe469f74ed4c742f}{Hero}}.
+
+
+
+Объявления и описания членов интерфейса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Program.\+cs\end{DoxyCompactItemize}

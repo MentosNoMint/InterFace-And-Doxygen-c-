@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="ru">
+  <compounddef id="interface_take_damage" kind="interface" language="C#" prot="public">
+    <compoundname>TakeDamage</compoundname>
+    <derivedcompoundref refid="class_hero" prot="public" virt="non-virtual">Hero</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_take_damage_1a612d49bbe2e9012256e8b91980cde622" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TakeDamage.damageCalc</definition>
+        <argsstring>(int TotalDamage)</argsstring>
+        <name>damageCalc</name>
+        <qualifiedname>TakeDamage.damageCalc</qualifiedname>
+        <reimplementedby refid="class_hero_1aa8b3bbf01d4a3008875f2cd8efa464a3">damageCalc</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>TotalDamage</declname>
+        </param>
+        <briefdescription>
+<para>Вычесление урона </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>TotalDamage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Количество Урона</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="39" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Интерфейс <ref refid="interface_take_damage" kindref="compound">TakeDamage</ref> Интерфейс реализующий урон </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Hero</label>
+        <link refid="class_hero"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>TakeDamage</label>
+        <link refid="interface_take_damage"/>
+      </node>
+    </inheritancegraph>
+    <location file="Program.cs" line="32" column="11" bodyfile="Program.cs" bodystart="33" bodyend="40"/>
+    <listofallmembers>
+      <member refid="interface_take_damage_1a612d49bbe2e9012256e8b91980cde622" prot="public" virt="non-virtual"><scope>TakeDamage</scope><name>damageCalc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

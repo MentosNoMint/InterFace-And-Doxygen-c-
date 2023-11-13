@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="ru">
+  <compounddef id="interface_hero_defence" kind="interface" language="C#" prot="public">
+    <compoundname>HeroDefence</compoundname>
+    <derivedcompoundref refid="class_hero" prot="public" virt="non-virtual">Hero</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_hero_defence_1a89531d2b9720922cc90f52c920997d62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int HeroDefence.Armour</definition>
+        <argsstring>(int life, int lvl)</argsstring>
+        <name>Armour</name>
+        <qualifiedname>HeroDefence.Armour</qualifiedname>
+        <reimplementedby refid="class_hero_1a50c0601a051d4d2b284a4ba0bb3fbb11">Armour</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>life</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lvl</declname>
+        </param>
+        <briefdescription>
+<para>Метод который получает Armour благодоря здоровью и уровню </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>life</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Здоровье</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lvl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Уровень</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Armour</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="18" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_hero_defence_1ac61b0071f605ff43bd0561dd830498f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int HeroDefence.Reduction</definition>
+        <argsstring>(int armour, int life)</argsstring>
+        <name>Reduction</name>
+        <qualifiedname>HeroDefence.Reduction</qualifiedname>
+        <reimplementedby refid="class_hero_1a0f2454ab2f11e10cbe469f74ed4c742f">Reduction</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>armour</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>life</declname>
+        </param>
+        <briefdescription>
+<para>Метод считающий подавление урона </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>armour</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Броня</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>life</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Здоровье</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Reduction</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="25" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Интерфейс <ref refid="interface_hero_defence" kindref="compound">HeroDefence</ref> Интерфейс реализующий защиту </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Hero</label>
+        <link refid="class_hero"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>HeroDefence</label>
+        <link refid="interface_hero_defence"/>
+      </node>
+    </inheritancegraph>
+    <location file="Program.cs" line="9" column="11" bodyfile="Program.cs" bodystart="10" bodyend="26"/>
+    <listofallmembers>
+      <member refid="interface_hero_defence_1a89531d2b9720922cc90f52c920997d62" prot="public" virt="non-virtual"><scope>HeroDefence</scope><name>Armour</name></member>
+      <member refid="interface_hero_defence_1ac61b0071f605ff43bd0561dd830498f3" prot="public" virt="non-virtual"><scope>HeroDefence</scope><name>Reduction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

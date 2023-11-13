@@ -1,0 +1,14 @@
+C:\Users\Kirill\Desktop\C# inter\bin\Debug\net7.0\C# inter.exe
+C:\Users\Kirill\Desktop\C# inter\bin\Debug\net7.0\C# inter.deps.json
+C:\Users\Kirill\Desktop\C# inter\bin\Debug\net7.0\C# inter.runtimeconfig.json
+C:\Users\Kirill\Desktop\C# inter\bin\Debug\net7.0\C# inter.dll
+C:\Users\Kirill\Desktop\C# inter\bin\Debug\net7.0\C# inter.pdb
+C:\Users\Kirill\Desktop\C# inter\obj\Debug\net7.0\C# inter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kirill\Desktop\C# inter\obj\Debug\net7.0\C# inter.AssemblyInfoInputs.cache
+C:\Users\Kirill\Desktop\C# inter\obj\Debug\net7.0\C# inter.AssemblyInfo.cs
+C:\Users\Kirill\Desktop\C# inter\obj\Debug\net7.0\C# inter.csproj.CoreCompileInputs.cache
+C:\Users\Kirill\Desktop\C# inter\obj\Debug\net7.0\C# inter.dll
+C:\Users\Kirill\Desktop\C# inter\obj\Debug\net7.0\refint\C# inter.dll
+C:\Users\Kirill\Desktop\C# inter\obj\Debug\net7.0\C# inter.pdb
+C:\Users\Kirill\Desktop\C# inter\obj\Debug\net7.0\C# inter.genruntimeconfig.cache
+C:\Users\Kirill\Desktop\C# inter\obj\Debug\net7.0\ref\C# inter.dll
